@@ -1340,7 +1340,7 @@ local AttackerDmgBonus = 1
 
 if reason.object:is_player() then
 AttackerDmgBonus = (reason.object:get_meta():get_int("accessory_offense")/100)+1
-minetest.chat_send_all("kek")
+-- minetest.chat_send_all("kek")
 end
 
 hp_change = (hp_change*AttackerDmgBonus) + acc_hp_protected
