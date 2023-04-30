@@ -1,7 +1,8 @@
 AccessoryWingsFlight = true
 AccessoryVisualReapplyInterval = 60
 
-
+--**Craft recipes been removed for admins/server can only sell it to players
+--**Remove the "--" below if you want accessories,armors and rings to be craftable
 
 local modpath = minetest.get_modpath(minetest.get_current_modname())
 dofile(modpath.."/accessories.lua")
