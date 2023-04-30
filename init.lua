@@ -6,15 +6,15 @@ AccessoryVisualReapplyInterval = 60
 local modpath = minetest.get_modpath(minetest.get_current_modname())
 dofile(modpath.."/accessories.lua")
 dofile(modpath.."/dyes.lua")
-dofile(modpath.."/accessory_crafts.lua")
+--dofile(modpath.."/accessory_crafts.lua")
 
 dofile(modpath.."/accessory_chest.lua")
 
 dofile(modpath.."/armors.lua")
-dofile(modpath.."/armor_crafts.lua")
+--dofile(modpath.."/armor_crafts.lua")
 
 dofile(modpath.."/rings.lua")
-dofile(modpath.."/ring_crafts.lua")
+--dofile(modpath.."/ring_crafts.lua")
 
 accessorySets = {
 {"copper_set",{"equippable_accessories:copper_helmet","equippable_accessories:copper_chainmail","equippable_accessories:copper_leggings"},{{"IntStat","accessory_defense",2}},"2 Defense"},
