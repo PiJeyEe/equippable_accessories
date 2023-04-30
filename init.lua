@@ -508,10 +508,10 @@ local playerMeta = player:get_meta()
 
 AccSelectUI =(
 "size[6,9]"..
-"label[2.0,1.0;Accessories]"..
-"button[1,3.0;4,1;acc_equips;equippment]"..
-"button[1,4.0;4,1;acc_vanity;vanity]"..
-"button[1,5.0;4,1;acc_dyes;accessory dyes]"..
+"label[2.3,1.0;".. minetest.colorize("#fb8114","Accessories").."]"..
+"button[1,3.0;4,1;acc_equips;Equipment]"..
+"button[1,4.0;4,1;acc_vanity;Vanity]"..
+"button[1,5.0;4,1;acc_dyes;Accessory Dyes]"..
 "button_exit[1,7.5;4,1;exit;Done]")
 
 	minetest.show_formspec(name,"equippable_accessories:AccSelectUI", AccSelectUI) 
