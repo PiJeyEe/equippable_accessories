@@ -13,8 +13,8 @@ Accessories can't be crafted, the admins/server will only sell it to players. Yo
 
 ### Credits
 
-Daviddoesminetest for the original mod
-mightyjoe781 for the 'kek' fixed version
+* Daviddoesminetest for the original mod
+* mightyjoe781 for the 'kek' fixed version
 
 ### License
 
