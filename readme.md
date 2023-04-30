@@ -9,6 +9,7 @@ Accessories can't be crafted, the admins/server will only sell it to players. Yo
 
 * Initial release from Daviddoesminetest's repository(v0.3.0)
 * Removed the 'kek' chat_send_all when hit while wearing accessories
+* Removed craft recipes so admins/server can only sell it
 
 
 ### Credits
